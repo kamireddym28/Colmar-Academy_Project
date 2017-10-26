@@ -1,0 +1,433 @@
+html {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 16px;
+}
+/*Header*/
+header{
+  position: fixed;
+  width: 100%;
+  border-bottom: solid 1px #c6c1c1;
+  background-color: white;
+  z-index:100;
+}
+header .head_content{
+  display: flex;
+  align-items: center;
+  height:4rem;
+}
+
+nav ul{
+  display: flex;
+  font-family: 'Work Sans', sans-serif;
+}
+nav li a{
+  padding-left: 1rem;
+}
+header .logo{
+  display: flex;
+  align-items: center;
+  flex:1;
+  padding-left: 1.5rem;
+}
+header .signin{
+  padding-right: 1.5rem;
+}
+header .mobile{
+  display: none;
+}
+.acad{
+  color:#b4b4b4;
+}
+/*Banner*/
+.main-top{
+  background-color: #b4b4b4;
+  display: flex;
+  align-items: center;
+  padding-top:  64px;
+  position: relative;
+  width: 100%;
+  flex: 1;
+}
+.ban-img{
+  width: 60%;
+  padding: 32px 24px;
+}
+.ban-content{
+  width: 30%;
+}
+.h1{
+  padding-bottom: 1.25rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.h2{
+  padding-bottom: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: 'Work Sans', sans-serif;
+}
+.button{
+  padding: 8px 0;
+  width: 85%;
+  height: 3rem;
+  background-color: #383636;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  border:1px solid #383636;
+}
+/*Resources*/
+.main-middle{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f4f3f3;
+  padding: 0;
+}
+.main-info{
+  display: flex;
+  flex-direction: column;
+  width:60%;
+  padding-bottom: 32px;
+}
+.info img{
+  max-width: 100%;
+  margin: 32px 24px;
+}
+.h1_main{
+  font-weight: bold;
+  font-size:1.5rem;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.p{
+  font-family: 'Work Sanas',sans-serif;
+  font-size:1rem;
+  line-height: 2rem;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.info-source{
+  max-width: 40%;
+  padding-bottom: 32px;
+  border-left: 1px solid #b4b4b4 ;
+}
+.orientation{
+  padding-top: 16px;
+  box-shadow: 2px 2px 2px #b4b4b4;
+}
+.orientation,.our_campus,.guest_lecture{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #b4b4b4;
+  max-width: 490px;
+}
+.orientation img,.our_campus img,.guest_lecture img{
+  width:35%;
+  padding: 16px;
+  height: auto;
+}
+.data{
+  width:65%;
+  line-height: 2rem;
+}
+.data h2{
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.data p{
+  font-family: 'Work Sanas',sans-serif;
+  padding: 8px 0;
+}
+.data a{
+  color:#71c7ec;
+}
+.guest_lecture,.fisma{
+  background-color: #b4b4b4;
+}
+.mob{
+  display: none;
+}
+/*Start learning*/
+.main-bottom{
+  background-color: #b4b4b4;
+}
+.main-bottom h2,.thesis_h2 h2{
+  padding: 32px 0;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+}
+.row1,.row2{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  align-content: space-around;
+  padding:0 72px 32px 72px;
+}
+.course-list{
+  background-color: white;
+  display:flex;
+  flex-direction:column;
+  max-width:380px;
+  margin-right: 32px;
+}
+.course-list img{
+  height:auto;
+}
+.course-details{
+  padding: 16px;
+}
+.course-details h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.course-details p{
+  padding-bottom: 24px;
+  font-size:0.9rem;
+  line-height: 1.25rem;
+}
+.course-details h4{
+  line-height: 2rem;
+}
+.business p{
+  font-size: 0.83rem;
+}
+/*Thesis section*/
+.thesis_h2{
+  background-color: #f4f3f3;
+}
+.thesis{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f4f3f3;
+  padding: 0 0 32px 0;
+  border-bottom: 1px solid #b4b4b4;
+}
+.thesis-info{
+  display: flex;
+  flex-direction: column;
+  width:60%;
+}
+.exhibit video{
+  max-width: 100%;
+  padding:0 24px 24px 24px;
+}
+.thesis-source{
+  max-width: 40%;
+}
+.fisma,.now-then{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 490px;
+  margin:0 16px 16px 0;
+}
+.fisma img,.now-then img{
+  width:35%;
+  padding: 16px;
+  height: auto;
+}
+.thesis-data{
+  width:65%;
+  line-height: 2rem;
+  padding-left: 16px;
+}
+.thesis-data h2{
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.thesis-data p{
+  font-family: 'Work Sanas',sans-serif;
+}
+/*footer*/
+.footer{
+  display:flex;
+  justify-content: space-between;
+  font-family:'Work Sanas',sans-serif;
+  background-color: #f4f4f3;
+  font-size: 0.9rem;
+  padding: 24px 16px 24px 32px;
+}
+@media only screen and (max-width: 450px) {
+    html{
+      width: 100%;
+      overflow-x: hidden;
+    }
+    header .desktop {
+      display: none;
+    }
+    header{
+      position: fixed;
+      width: 100%;
+      border-bottom: solid 1px #c6c1c1;
+      background-color: white;
+      z-index:100;
+    }
+    header .mobile {
+      display: block;
+      width: 100%;
+    }
+    header .logo{
+      padding: 0;
+    }
+    header .head_content {
+      padding: .5rem 0;
+    }
+
+    header .mobile ul {
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+
+    header .mobile li {
+      padding: 0;
+    }
+    .main-top{
+      display: block;
+      background-color:  #b4b4b4;
+      max-width:100%;
+    }
+    .ban-img{
+      width: 100%;
+      padding: 0;
+     }
+     .ban-content{
+       padding: 32px 16px;
+       width: 100%;
+     }
+     .h1{
+       padding-bottom: 2rem;
+       font-size: 2.5rem;
+     }
+     .h2{
+       font-size: 1.5rem;
+       padding-bottom: 2rem;
+       line-height: 1.5;
+     }
+     .button{
+       padding: 8px 0;
+       width: 90%;
+       height: 3rem;
+       background-color: #383636;
+       color: white;
+       font-weight: 600;
+       letter-spacing: 0.15rem;
+     }
+     .main-info{
+       display: none;
+     }
+     .desk{
+       display: none;
+     }
+     .info-source{
+       max-width: 90%;
+     }
+     .orientation{
+       box-shadow: none;
+     }
+     .orientation,.our_campus,.guest_lecture{
+       display:block;
+       flex-direction: row;
+       border-bottom:none;
+       width: 100%;
+     }
+     .orientation .mob,.our_campus .mob,.guest_lecture .mob{
+       display: flex;
+       flex-direction: column;
+       padding: 0;
+       width: 100%;
+       height: auto;
+       padding:16px;
+     }
+     .data{
+       line-height: 2rem;
+       padding:32px 32px 0px 32px;
+       width:100%;
+     }
+     .data h2{
+       font-weight: bold;
+       font-size: 1.25rem;
+     }
+     .data p{
+       font-family: 'Work Sanas',sans-serif;
+     }
+     .data a{
+       color:#71c7ec;
+     }
+     .guest_lecture{
+       background-color: #f4f3f3;
+     }
+     .main-bottom{
+       border-top: 1px solid #b4b4b4;
+       background-color: #f4f3f3;
+       width: 100%;
+       margin:0;
+       padding-bottom: 32px;
+       border-bottom: 1px solid #b4b4b4;
+     }
+     .main-bottom h2,.thesis_h2 h2{
+       padding: 32px 0 16px 0;
+       font-size: 1.75rem;
+       font-weight: bold;
+       text-align: center;
+     }
+     .row1,.row2{
+       display:grid;
+       width:100%;
+       padding:0;
+     }
+     .course-list{
+       background-color: #b4b4b4;
+       display: flex;
+
+       margin:8px;
+     }
+     .course-details{
+       padding: 0;
+     }
+     .course-details h3{
+       font-weight: bold;
+       font-size: 1rem;
+       padding:16px 16px 16px 24px;
+     }
+     .course-details p,.course-details h4,.business p,.course-list img{
+       display: none;
+     }
+     .thesis_h2{
+       background-color: #f4f3f3;
+     }
+     .thesis{
+       display:block;
+       width: 100%;
+       padding: 0;
+     }
+     .thesis-info{
+       width:100%;
+     }
+     .exhibit video{
+      padding-left: 0;
+      padding-bottom: 24px;
+     }
+     .thesis .h1_main,.thesis .p,.thesis-source,.fisma,.now-then,.fisma img,.now-then img,.thesis-data,.thesis-data h2,.thesis-data p{
+       display: none;
+     }
+     .footer{
+       display:flex;
+       justify-content: space-between;
+       background-color: #f4f3f3;
+       font-family:'Work Sanas',sans-serif;
+       font-size: 0.8rem;
+       padding:16px;
+     }
+     .foot-p{
+       display: none;
+     }
+
+}
